@@ -19,7 +19,7 @@ https://ibb.co/KrLPHQs
 
 # Wireframes
 
-https://ibb.co/cv7zyWr
+https://ibb.co/KyFk4P2
 
 # MVP
 
@@ -88,6 +88,7 @@ console.log(result);
 };
 return (
 <>
+
 <h1 onClick={data}>SearchYum</h1>
 </>
 );
