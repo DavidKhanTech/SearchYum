@@ -24,20 +24,29 @@ https://ibb.co/KyFk4P2
 # MVP
 
 Pull Data
+
 Images
+
 Recipes
 
-Components
+-Components-
+
 Header
+
 Text/Input
+
 Buttons
+
 Data Box
+
 Footer
 
 # PostMVP
 
 Style
+
 Add Suggested Custom meal
+
 Macro Nutrients
 
 # Project Schedule
@@ -45,28 +54,46 @@ Macro Nutrients
 Day Deliverable Status
 
 Monday, 6/29
+
 Project plan; Project approval structure
 
 Tuesday, 6/30
+
 Whiteboard functionality
+
 code components
 
 Wednesday, 7/01
+
 code data
 
 Thursday, 7/02
+
 Custom/Random Dinner search
 
 Friday, 7/03
+
 Finalize CSS and Completed MVP
 
 Monday, 7/06
+
 Present Project!
 
 # Priority Matrix
 
 Connect API
-Make 6 Components
+
+Make 6 Components including
+
+Header
+
+Text/Input
+
+Buttons
+
+Data Box
+
+Footer
 
 # Timeframes
 
@@ -82,18 +109,26 @@ Total Hours- Estimated: 40hr Actual:
 
 # Code Snippet
 
-const data = async () => {
+<!-- const data = async () => {
+
 const result = await axios.get(url);
+
 console.log(result);
+
 };
+
 return (
+
 <>
 
 <h1 onClick={data}>SearchYum</h1>
+
 </>
+
 );
+
 }
 
-export default App;
+export default App; -->
 
 # Change Log
