@@ -10,9 +10,10 @@ Search Engine for recipes based on items in your fridge
 
 # API & Data Sample
 
-http://api.yummly.com/v1
-either or
 https://api.edamam.com/search
+
+Image of API data on console
+https://ibb.co/KrLPHQs
 
 # Wireframes
 
