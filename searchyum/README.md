@@ -1,6 +1,6 @@
 # SearchYum
 
-Get recipes and dinner ideas from items you have at the house.
+Get recipes and what to eat ideas from items you have at the house.
 
 https://davidkhantech.github.io/SearchYum/
 
