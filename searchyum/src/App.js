@@ -1,23 +1,29 @@
 import React, { useState } from "react";
 import "./App.css";
-import axios from "axios";
+import Axios from "axios";
 
 function App() {
-  // creating state
+  // creating state query will be data and setQuery is method
   const [query, setQuery] = useState("");
 
-  const appId = "f546136b";
-  const key = "a92b6c90a77faae0bb4555f47a23924f";
+  // create recipes
+  const [recipes, setRecipes] = useState([]);
 
-  const url = `https://api.edamam.com/search?q=chicken&app_id=${appId}&app_key=${key}`;
+  const appId = `f546136b`;
+  const key = `a92b6c90a77faae0bb4555f47a23924f`;
+
+  const url = `https://api.edamam.com/search?q=${query}&app_id=${appId}&app_key=${key}`;
 
   const data = async () => {
-    const result = await axios.get(url);
-    // console.log(result);
+    const result = await Axios.get(url);
+
+    setRecipes(result.data.hits);
+    console.log(result);
+    setQuery("");
   };
-  // text input
+  // text input component
   const searchInput = (e) => {
-    console.log(e.target.value);
+    setQuery(e.target.value);
   };
 
   const submit = (e) => {
@@ -35,7 +41,7 @@ function App() {
           type="text"
           placeholder="Whats in your fridge?"
           onChange={searchInput}
-          searchInput
+          value={query}
         />
         <input type="submit" value="search" />
       </form>
