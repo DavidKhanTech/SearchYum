@@ -1,8 +1,18 @@
 # SearchYum
 
-Tired of never knowing about what to eat?
+Are you hungry but can't think of anything to make?
+
+Introducing SearchYum
 
 Get healthy recipes and Yummy food ideas from items you have at the house.
+
+It's easy to use SearchYum's intricate search engine designed to curate a stress free yummy meal
+
+Enter your items and you can have the choice of multiple recipes or if you can't decide then click
+
+the choose for me button and have SearchYum decide for you.
+
+No More Stress, just Yum!
 
 https://davidkhantech.github.io/SearchYum/
 
