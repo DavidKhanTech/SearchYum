@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import axios from "axios";
-import { getDefaultNormalizer } from "@testing-library/react";
 
 function App() {
+  // creating state
+  const [query, setQuery] = useState("");
+
   const appId = "f546136b";
   const key = "a92b6c90a77faae0bb4555f47a23924f";
 
@@ -12,6 +14,10 @@ function App() {
   const data = async () => {
     const result = await axios.get(url);
     // console.log(result);
+  };
+  // text input
+  const searchInput = (e) => {
+    console.log(e.target.value);
   };
 
   const submit = (e) => {
@@ -25,7 +31,12 @@ function App() {
       <h1>SearchYum</h1>
       <form className="search" onSubmit={submit}>
         {/* input into component */}
-        <input type="text" placeholder="Whats in your fridge?" />
+        <input
+          type="text"
+          placeholder="Whats in your fridge?"
+          onChange={searchInput}
+          searchInput
+        />
         <input type="submit" value="search" />
       </form>
     </>
