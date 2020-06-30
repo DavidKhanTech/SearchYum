@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
 import Axios from "axios";
+import Recipe from "./components/Recipe";
+// console error fix
+import { v4 as uuidv4 } from "uuid";
 
 function App() {
   // creating state query will be data and setQuery is method
@@ -54,7 +57,7 @@ function App() {
       <div className="recipes">
         {/* condition to check if recipe array is empty or not if empty recieve data */}
         {recipes !== [] &&
-          recipes.map((recipe) => <h2>{recipe.recipe.label}</h2>)}
+          recipes.map((recipe) => <Recipe key={uuidv4()} recipe={recipe} />)}
       </div>
     </>
   );
