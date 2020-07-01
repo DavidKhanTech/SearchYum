@@ -5,6 +5,11 @@ import Recipe from "./components/Recipe";
 // console error fix
 import { v4 as uuidv4 } from "uuid";
 import Alerts from "./components/Alerts";
+import Home from "./components/Home";
+import Header from "./components/Header";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function App() {
   // creating state query for data and setQuery is method
@@ -43,7 +48,9 @@ function App() {
   };
   return (
     <>
-      <h1>SearchYum</h1>
+      <Router>
+        <Header />
+      </Router>
       <form className="search" onSubmit={submit}>
         {alert !== "" && <Alerts alert={alert} />}
         <input
