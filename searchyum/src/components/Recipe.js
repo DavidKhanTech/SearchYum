@@ -10,7 +10,7 @@ const Recipe = ({ recipe }) => {
     <div className="recipe">
       <h2>{label}</h2>
       <img src={image} alt={label}></img>
-      <a href={url} target="_blank">
+      <a href={url} target="_blank" rel="noopener noreferrer">
         Click Here For Easy Step by Step Directions!
       </a>
       {/* setShow method to update true or false on click */}

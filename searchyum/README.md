@@ -8,9 +8,7 @@ Get healthy recipes and Yummy food ideas from items you have at the house.
 
 It's easy to use SearchYum's intricate search engine designed to curate a stress free yummy meal
 
-Enter your items and you can have the choice of multiple recipes or if you can't decide then click
-
-the choose for me button and have SearchYum decide for you.
+Enter your items and you can have the choice of multiple recipes
 
 No More Stress, just Yum!
 
@@ -41,15 +39,17 @@ Recipes
 
 -Components-
 
+Home
+
 Header
 
-Text/Input
+Details
 
-Buttons
+Recipe
 
-Data Box
+Alerts
 
-Footer
+Contact
 
 # PostMVP
 
@@ -95,15 +95,17 @@ Connect API
 
 Make 6 Components including
 
+Home
+
 Header
 
-Text/Input
+Details
 
-Buttons
+Recipe
 
-Data Box
+Alerts
 
-Footer
+Contact
 
 # Timeframes
 
@@ -116,29 +118,5 @@ Code API Estimated: 10hr Actual:
 Code Random recipe button Estimated: 5hr Actual:
 
 Total Hours- Estimated: 40hr Actual:
-
-# Code Snippet
-
-<!-- const data = async () => {
-
-const result = await axios.get(url);
-
-console.log(result);
-
-};
-
-return (
-
-<>
-
-<h1 onClick={data}>SearchYum</h1>
-
-</>
-
-);
-
-}
-
-export default App; -->
 
 # Change Log
