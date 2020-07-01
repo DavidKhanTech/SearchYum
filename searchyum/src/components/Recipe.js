@@ -11,7 +11,7 @@ const Recipe = ({ recipe }) => {
       <h2>{label}</h2>
       <img src={image} alt={label}></img>
       <a href={url} target="_blank">
-        URL
+        Click Here For Easy Step by Step Directions!
       </a>
       {/* setShow method to update true or false on click */}
       <button onClick={() => setShow(!show)}>Ingredients</button>
