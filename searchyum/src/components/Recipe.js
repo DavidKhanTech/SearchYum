@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import Details from "./Details";
 
 const Recipe = ({ recipe }) => {
+  //toggle action
+  const [show, setShow] = useState(false);
+
   const { label, image, url, ingredients } = recipe.recipe;
   return (
     <div className="recipe">
@@ -9,7 +13,9 @@ const Recipe = ({ recipe }) => {
       <a href={url} target="_blank">
         URL
       </a>
-      <button>Ingredients</button>
+      {/* setShow method to update true or false on click */}
+      <button onClick={() => setShow(!show)}>Ingredients</button>
+      {show && <Details ingredients={ingredients} />}
     </div>
   );
 };
