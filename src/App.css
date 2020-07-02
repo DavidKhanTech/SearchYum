@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body,
+html {
+  font-size: 62.5%;
+  background: url("https://cdn.pixabay.com/photo/2017/06/06/22/37/spaghetti-ingredients-2378728_960_720.jpg");
+  height: 100%;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 2rem;
+  color: #f80000;
+  font-family: arial;
+  font-size: 13.5px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0px 90px 0px 0px;
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(253, 248, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(29, 0, 244);
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 251, 0);
+}
+img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 8rem;
+  color: #fde74c;
+  text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
+  margin: 4rem 0;
+  font-family: "Pacifico", cursive;
+}
+form {
+  text-align: center;
+}
+
+.searchForm {
+  width: 60rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+  border-radius: 0.5rem;
+  margin-bottom: 5rem;
+  box-shadow: 1rem 2rem 5rem #aaa;
+  position: relative;
+}
+
+.alerts {
+  font-size: 2rem;
+  top: -3rem;
+  left: 0;
+  background-color: red;
+  width: calc(100% - 0.4rem);
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+
+.alerts h2 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.recipes {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.recipe {
+  width: 30rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #d3d3d3;
+  padding: 2rem;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 2rem 3rem 5rem #aaa;
+}
+
+.recipe h2 {
+  background-color: rgba(161, 161, 161, 0.7);
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  position: absolute;
+  top: 2.5rem;
+  left: 2.5rem;
+  right: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-shadow: 0 0.5rem 0.5rem #555;
+  color: #fff;
+}
+
+.recipe img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.recipe a {
+  font-size: 1.8rem;
+  color: #4097b4;
+}
+
+.recipe button {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #29a2e8;
+  border: none;
+  border-radius: 0.5rem;
+  height: 3rem;
+}
+input[type="text"] {
+  padding: 10px 60px;
+  border: 3px solid #000000;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
+
+input[type="submit"] {
+  display: inline;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 19px 40px 15px 40px;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  margin: 5px 4px;
+}
+
+@media screen and (max-width: 1060px) {
+  #primary {
+    width: 67%;
+  }
+  #secondary {
+    width: 30%;
+    margin-left: 3%;
+  }
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary {
+    width: 100%;
+  }
+  #secondary {
+    width: 100%;
+    margin: 0;
+    border: none;
+  }
+}
