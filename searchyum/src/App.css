@@ -1,7 +1,25 @@
-li {
+html {
+  font-size: 62.5%;
+  background: url("https://image.freepik.com/free-photo/organic-food-concept-black-background_131001-2100.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+.App {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-body {
-  text-align: center;
+
+h1 {
+  position: static;
+  font-size: 8rem;
+  color: #fde74c;
+  text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
+  margin: 4rem 0;
 }
