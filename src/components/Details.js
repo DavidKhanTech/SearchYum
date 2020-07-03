@@ -6,7 +6,7 @@ const Details = ({ ingredients }) => {
     return (
       <ul key={uuidv4()} className="ingredientList">
         <li className="ingredientText">{ingredient.text}</li>
-        <li className="ingredientWeight">{ingredient.weight}</li>
+        {/* <li className="ingredientWeight">{ingredient.weight}</li> */}
       </ul>
     );
   });

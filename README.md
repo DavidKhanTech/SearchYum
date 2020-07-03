@@ -12,7 +12,7 @@ Enter your items and you can have the choice of multiple recipes
 
 No More Stress, just Yum!
 
-https://davidkhantech.github.io/SearchYum/
+https://priceless-easley-8e456b.netlify.app
 
 # Project Description
 
