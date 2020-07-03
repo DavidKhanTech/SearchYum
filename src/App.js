@@ -8,7 +8,7 @@ import Alerts from "./components/Alerts";
 import Home from "./components/Home";
 import Header from "./components/Header";
 import Contact from "./components/Contact";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   // creating state query for data and setQuery is method
@@ -58,7 +58,7 @@ function App() {
         {alert !== "" && <Alerts alert={alert} />}
         <input
           type="text"
-          placeholder="Whats in your fridge?"
+          placeholder="What's in your fridge?"
           onChange={searchInput}
           value={query}
         />
