@@ -109,14 +109,16 @@ Contact
 
 # Timeframes
 
-HTML Structure Estimated: 5hr Actual:
+App Structure Estimated: 5hr Actual: 10hr
 
-Basic CSS Styles Estimated: 5hr Actual:
+Basic CSS Styles Estimated: 5hr Actual: 10hr
 
-Code API Estimated: 10hr Actual:
+Code API Estimated: 10hr Actual: 10hr
 
-Code Random recipe button Estimated: 5hr Actual:
+Code Random recipe button Estimated: 5hr Actual:10hr
 
-Total Hours- Estimated: 40hr Actual:
+Total Hours- Estimated: 40hr Actual: 40hr
 
 # Change Log
+
+In the future I will be adding a custom meal option
